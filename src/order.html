@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="20214070 류일환" />
+    <meta name="description" content="쇼핑몰 만들기 과제 사이트입니다." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>옵션 - 쇼핑은 옵션</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="lnb">
+        <h1 class="logo">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="옵션" />
+          </a>
+        </h1>
+        <ul>
+          <li><a href="./signin.html">로그인</a></li>
+          <li><a href="./signup.html">회원가입</a></li>
+          <li><a href="./cart.html">장바구니</a></li>
+          <li><a href="#">주문배송</a></li>
+          <li><a href="#">마이옵션</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+      <hr />
+      <div class="search">
+        <form action="#" method="get">
+          <input type="text" name="keyword" id="search_text" required />
+          <input type="submit" value="검색" />
+        </form>
+      </div>
+      <hr />
+    </div>
+    <!-- header -->
+    <div class="main">
+      <div id="order_list">
+        <form action="">
+          <ul>
+            <li>
+              <div class="item_info">
+                <input
+                  type="checkbox"
+                  name="SelectedItem"
+                  value="food0"
+                  id="item0"
+                  checked
+                />
+                <a href="../src/item.html">
+                  <img
+                    src="../img/food/0.jpg"
+                    width="100px"
+                    alt="백미 1kg"
+                  />백미 1kg
+                </a>
+                <input
+                  type="number"
+                  name="Item0Num"
+                  min="1"
+                  max="999"
+                  value="1"
+                />
+                <span>5,700원</span>
+              </div>
+            </li>
+            <hr />
+            <li>
+              <div class="item_info">
+                <input
+                  type="checkbox"
+                  name="SelectedItem"
+                  value="beauty0"
+                  id="item1"
+                  checked
+                />
+                <a href="../src/item.html">
+                  <img
+                    src="../img/beauty/0.jpg"
+                    width="100px"
+                    alt="소프트 스킨케어크림(프로모션)"
+                  />소프트 스킨케어크림(프로모션)
+                </a>
+                <input
+                  type="number"
+                  name="Item1Num"
+                  min="1"
+                  max="999"
+                  value="1"
+                />
+                <span>25,000원</span>
+              </div>
+            </li>
+            <hr />
+          </ul>
+          <span>전체 합계: 30,700원</span>
+          <input type="submit" value="주문하기" />
+        </form>
+      </div>
+    </div>
+    <!-- main -->
+    <div class="footer">
+      <hr />
+      <ul>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">도움말</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">책임과 법적고지</a></li>
+        <li><a href="#">게시중단요청</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+    </div>
+    <!--footer-->
+  </body>
+</html>

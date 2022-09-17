@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="20214070 류일환" />
+    <meta name="description" content="쇼핑몰 만들기 과제 사이트입니다." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>옵션 - 쇼핑은 옵션</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="lnb">
+        <h1 class="logo">
+          <a href="./index.html">
+            <img src="./img/logo.png" alt="옵션" />
+          </a>
+        </h1>
+        <ul>
+          <li><a href="./src/signin.html">로그인</a></li>
+          <li><a href="./src/signup.html">회원가입</a></li>
+          <li><a href="./src/cart.html">장바구니</a></li>
+          <li><a href="#">주문배송</a></li>
+          <li><a href="#">마이옵션</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+      <hr />
+      <div class="search">
+        <form action="#" method="get">
+          <input type="text" name="keyword" id="search_text" required />
+          <input type="submit" value="검색" />
+        </form>
+      </div>
+      <hr />
+    </div>
+    <!--header-->
+    <div class="main">
+      <div class="catagories">
+        <h2>메뉴</h2>
+        <div class="all_menu">
+          <span>전체 카테고리</span>
+          <ul class="menus">
+            <li><a href="#promotion">프로모션</a></li>
+            <li><a href="#clothing">의류</a></li>
+            <li><a href="#beauty">뷰티</a></li>
+            <li><a href="#food">식품</a></li>
+            <li><a href="#funiture">가구</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div id="promotion">
+        <h3>이달의 프로모션</h3>
+        <p>
+          <a href="#promotion_item">소프트 스킨케어크림</a><br />
+          50%할인
+        </p>
+        <video
+          poster="./img/beauty/0.jpg"
+          id="promotion_ad"
+          src="./video/skincare_ad.mp4"
+          width="40%"
+          autoplay
+          loop
+          muted
+          controls
+        >
+          프로모션 비디오
+        </video>
+      </div>
+      <hr />
+      <div id="clothing">
+        <h3>의류</h3>
+        <table class="items" border="1" width="100%">
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/0.jpg"
+                  alt="고양이 티셔츠"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>고양이 티셔츠</b></p>
+              </a>
+              <hr />
+              <span><sup>20% 할인</sup><del>20,,000원</del>18,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/1.jpg"
+                  alt="장미색 원피스"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>장미색 원피스</b></p>
+              </a>
+              <hr />
+              <span>50,,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/2.jpg"
+                  alt="단색 티셔츠"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>깔금한 단색 티셔츠</b></p>
+              </a>
+              <hr />
+              <span>15,000원~</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/3.jpg"
+                  alt="여성 아이보리 니트"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>여성 아이보리 니트</b></p>
+              </a>
+              <hr />
+              <span>35,000원</span>
+            </td>
+          </tr>
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/4.jpg"
+                  alt="검정 셔츠"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>검정 셔츠</b></p>
+              </a>
+              <hr />
+              <span>18,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/5.jpg"
+                  alt="흰색 후드"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>흰색 후드</b></p>
+              </a>
+              <hr />
+              <span>30,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/6.jpg"
+                  alt="청바지"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>청바지</b></p>
+              </a>
+              <hr />
+              <span><sup>15%~할인</sup><del>30,000원~</del>27,000원~</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/clothing/7.jpg"
+                  alt="검정/남색 티셔츠"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>검정/남색 티셔츠</b></p>
+              </a>
+              <hr />
+              <span>14,000원</span>
+            </td>
+          </tr>
+        </table>
+        <a href="#">더보기</a>
+      </div>
+      <hr />
+      <div id="beauty">
+        <h3>뷰티</h3>
+        <table class="items" border="1" width="100%">
+          <tr class="itme_row">
+            <td width="25%" id="promotion_item">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/0.jpg"
+                  alt="소프트 스킨케어크림(프로모션)"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>소프트 스킨케어크림</b><strong>(프로모션)</strong></p>
+              </a>
+              <hr />
+              <span><sup>50%할인</sup><del>50,000원</del>25,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/1.jpg"
+                  alt="핑크색 메니큐어"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>핑크색 메니큐어</b></p>
+              </a>
+              <hr />
+              <span>10,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/2.jpg"
+                  alt="빨간색 립스틱"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>빨간색 립스틱</b></p>
+              </a>
+              <hr />
+              <span>12,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/3.jpg"
+                  alt="바디로션"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>바디로션 2개 묶음</b></p>
+              </a>
+              <hr />
+              <span>18,000원</span>
+            </td>
+          </tr>
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/4.jpg"
+                  alt="아이 섀도우 팔레트 메이크업 키트"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>아이 섀도우 팔레트 메이크업 키트</b></p>
+              </a>
+              <hr />
+              <span>55,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/5.jpg"
+                  alt="겨울향수"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>겨울향수</b></p>
+              </a>
+              <hr />
+              <span><sup>10%할인</sup><del>13,000원</del>11,700원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/6.jpg"
+                  alt="선크림"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>선크림</b></p>
+              </a>
+              <hr />
+              <span>8,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/beauty/7.jpg"
+                  alt="마스크팩"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>마스크팩</b></p>
+              </a>
+              <hr />
+              <span>12,000원</span>
+            </td>
+          </tr>
+        </table>
+        <a href="#">더보기</a>
+      </div>
+      <hr />
+      <div id="food">
+        <h3>식품</h3>
+        <table class="items" border="1" width="100%">
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/0.jpg"
+                  alt="백미 1kg"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>백미 1kg</b></p>
+              </a>
+              <hr />
+              <span>5,700원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/1.jpg"
+                  alt="초코파이 1갑"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>초코파이 1갑</b></p>
+              </a>
+              <hr />
+              <span>6,500원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/2.jpg"
+                  alt="신라면 1봉지(5개 팩)"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>신라면 1봉지(5개 팩)</b></p>
+              </a>
+              <hr />
+              <span><sup>5% 할인</sup><del>6,800원</del>6,460원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/3.jpg"
+                  alt="추파춥스 슬림휠 120입"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>추파춥스 슬림휠 120입</b></p>
+              </a>
+              <hr />
+              <span>24,000원</span>
+            </td>
+          </tr>
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/4.jpg"
+                  alt="맥심 모카골드 230스틱"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>맥심 모카골드 230스틱</b></p>
+              </a>
+              <hr />
+              <span>26,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/5.jpg"
+                  alt="인절미과자"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>인절미과자</b></p>
+              </a>
+              <hr />
+              <span>29,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/6.jpg"
+                  alt="고추쌈장"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>고추쌈장</b></p>
+              </a>
+              <hr />
+              <span>1,800원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/food/7.jpg"
+                  alt="김치만두"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>김치만두</b></p>
+              </a>
+              <hr />
+              <span>9,000원</span>
+            </td>
+          </tr>
+        </table>
+        <a href="#">더보기</a>
+      </div>
+      <hr />
+      <div id="funiture">
+        <h3>가구</h3>
+        <table class="items" border="1" width="100%">
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/0.jpg"
+                  alt="침대"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>침대</b></p>
+              </a>
+              <hr />
+              <span><sup>6% 할인</sup><del>180,000원</del>169,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/1.jpg"
+                  alt="둥받이 의자"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>둥받이 의자</b></p>
+              </a>
+              <hr />
+              <span>99,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/2.jpg"
+                  alt="노트북 책상"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>노트북 책상</b></p>
+              </a>
+              <hr />
+              <span>195,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/3.jpg"
+                  alt="커튼"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>커튼</b></p>
+              </a>
+              <hr />
+              <span><sup>15% 할인</sup><del>28,,000원</del>23,800원</span>
+            </td>
+          </tr>
+          <tr class="itme_row">
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/4.jpg"
+                  alt="이불"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>이불</b></p>
+              </a>
+              <hr />
+              <span>22,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/5.jpg"
+                  alt="블루투스 알람시계"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>블루투스 알람시계</b></p>
+              </a>
+              <hr />
+              <span>18,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/6.jpg"
+                  alt="조명세트"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>조명세트</b></p>
+              </a>
+              <hr />
+              <span>27,000원</span>
+            </td>
+            <td width="25%">
+              <a href="./src/item.html">
+                <img
+                  src="./img/funiture/7.jpg"
+                  alt="탁상 거울"
+                  width="100%"
+                  height="100%"
+                />
+                <p><b>탁상 거울</b></p>
+              </a>
+              <hr />
+              <span>11,000원</span>
+            </td>
+          </tr>
+        </table>
+        <a href="#">더보기</a>
+      </div>
+    </div>
+    <!--main-->
+    <div class="footer">
+      <hr />
+      <ul>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">도움말</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">책임과 법적고지</a></li>
+        <li><a href="#">게시중단요청</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+    </div>
+    <!--footer-->
+  </body>
+</html>
