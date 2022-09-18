@@ -36,28 +36,41 @@
     </div>
     <!-- header -->
     <div class="main">
-      
+      <div class="item_info">
+        <h2>소프트 스킨케어크림(프로모션)</h2>
+        <img
+          src="../img/beauty/0.jpg"
+          alt="소프트 스킨케어크림(프로모션)"
+          width="400px"
+          height="300px"
+        />
+        <dl>
+          <dt>가격</dt>
+          <dd><sup>20% 할인</sup><del>20,000원</del>18,000원</dd>
+          <dt>택배</dt>
+          <dd>무료배송</dd>
+          <dt>혜택</dt>
+          <dd>SCH카드 최대2% 캐시 적립</dd>
+        </dl>
+      </div>
+      <hr />
+      <div class="item_order">
         <form action="">
-          <fieldset>
-            <legend>정보입력</legend>
-            <input type="text" name="Name" placeholder="이름" /><br />
-            <input type="text" name="Id" placeholder="아이디" /><br />
-            <input
-              type="password"
-              name="Password"
-              placeholder="비밀번호"
-            /><br />
-            <input
-              type="password"
-              name="PasswordRetype"
-              placeholder="비밀번호 재입력"
-            /><br />
-            <input type="tel" name="PhoneNum" placeholder="휴대폰 번호" /><br />
-            <input type="email" name="Email" placeholder="이메일" /><br />
-            <input type="submit" value="회원가입" />
-            <input type="reset" value="초기화" />
-          </fieldset>
+          사이즈:
+          <select name="size">
+            <option value="L">L사이즈 대용량</option>
+            <option value="M">M사이즈 일반용량</option>
+            <option value="S">S사이즈 소용량</option>
+          </select>
+          <br />
+          <br />
+          <input type="button" value="장바구니" />
+          <input type="button" value="구매하기" />
         </form>
+      </div>
+      <hr />
+      <div class="item_detail">
+        <iframe src="./item_detail.html" width="70%" height="700px"></iframe>
       </div>
     </div>
     <!-- main -->
