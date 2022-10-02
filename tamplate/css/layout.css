@@ -1,23 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-#wrap {
-}
-#header {
-  height: 100px;
-}
-#nav {
-  height: 100px;
-  background-color: #b9aaa5;
-}
 #main {
   height: 780px;
-  background-color: #886f65;
-}
-#footer {
-  height: 100px;
-  background-color: #4e342e;
+  /* background-color: #886f65; */
 }
 .container {
   width: 1000px;
@@ -25,25 +8,23 @@
   margin: 0 auto;
   position: relative;
 }
-.contents {
-}
 .contents .cont1 {
   height: 100px;
-  background-color: #74574a;
+  /* background-color: #74574a; */
 }
 .contents .cont2 {
   height: 200px;
-  background-color: #684d43;
+  /* background-color: #684d43; */
 }
 .contents .cont3 {
   width: 49.5%;
   height: 480px;
-  background-color: #594139;
+  /* background-color: #594139; */
   float: left;
 }
 .contents .cont4 {
   width: 49.9%;
   height: 480px;
-  background-color: #4a352f;
+  /* background-color: #4a352f; */
   float: left;
 }

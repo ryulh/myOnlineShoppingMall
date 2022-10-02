@@ -1,45 +1,40 @@
+#header {
+  height: 110px;
+}
 .lnb {
   text-align: right;
 }
-
 .lnb li {
   display: inline;
-  font-size: 11px;
-  padding-right: 5px;
+  font-size: 12px;
+  padding-right: 10px;
   border-right: 1px solid lightgray;
 }
-
 .lnb li:last-child {
   border-right: none;
 }
-
 .logo {
   position: absolute;
   top: 30px;
-  left: 20px;
 }
-
 .logo img {
   height: 62px;
+  width: 215px;
 }
-
 .search {
   position: relative;
-  top: 24px;
+  top: 22px;
 }
-
 .inner_search {
   border-bottom: 4px solid red;
   display: inline-block;
-  margin-left: 215px;
+  margin-left: 218px;
   height: 30px;
 }
-
 .inner_search * {
   display: inline;
   height: 100%;
 }
-
 .inner_search input[type="text"] {
   width: 370px;
   border: none;
@@ -50,7 +45,6 @@
   bottom: 10px;
   background: none;
 }
-
 .inner_search input[type="image"] {
   width: 30px;
 }
