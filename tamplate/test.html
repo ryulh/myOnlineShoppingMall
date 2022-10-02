@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="20214070 류일환" />
-    <meta name="description" content="쇼핑몰 만들기 과제 사이트입니다." />
-    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>옵션 - 쇼핑은 옵션</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/header.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="lnb">
-        <h1 class="logo">
-          <a href="./index.html">
-            <img src="./img/logo.png" alt="옵션" />
-          </a>
-        </h1>
-        <ul>
-          <li><a href="./src/signin.html">로그인</a></li>
-          <li><a href="./src/signup.html">회원가입</a></li>
-          <li><a href="./src/cart.html">장바구니</a></li>
-          <li><a href="#">주문배송</a></li>
-          <li><a href="#">마이옵션</a></li>
-          <li><a href="#">고객센터</a></li>
-        </ul>
-      </div>
-      <hr />
-      <div class="search">
-        <form action="#" method="get">
-          <input type="text" name="keyword" id="search_text" required />
-          <input type="submit" value="검색" />
-        </form>
-      </div>
-      <hr />
-    </div>
-    <!--header-->
+    <div id="wrap">
+      <div id="header">
+        <div class="container">
+          <div class="lnb_container">
+            <h1 class="logo">
+              <a href="./index.html">
+                <img src="./img/logo.png" alt="옵션" />
+              </a>
+            </h1>
+            <ul class="lnb">
+              <li><a href="./src/signin.html">로그인</a></li>
+              <li><a href="./src/signup.html">회원가입</a></li>
+              <li><a href="./src/cart.html">장바구니</a></li>
+              <li><a href="#">주문배송</a></li>
+              <li><a href="#">마이옵션</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </div>
 
-    <!--main-->
-    <div class="footer">
-      <hr />
-      <ul>
-        <li><a href="#">고객센터</a></li>
-        <li><a href="#">도움말</a></li>
-        <li><a href="#">이용약관</a></li>
-        <li><a href="#">책임과 법적고지</a></li>
-        <li><a href="#">게시중단요청</a></li>
-        <li><a href="#">고객센터</a></li>
-      </ul>
+          <div class="search">
+            <form action="#" method="get">
+              <div class="inner_search">
+                <input type="text" name="keyword" required />
+                <input type="image" src="./img/search.png" alt="검색버튼" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="nav">
+        <div class="container"></div>
+      </div>
+      <div id="main">
+        <div class="contents container">
+          <div class="left">
+            <div class="cont1"></div>
+          </div>
+          <div class="right">
+            <div class="cont2"></div>
+            <div class="cont3"></div>
+            <div class="cont4"></div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="container"></div>
+      </div>
     </div>
-    <!--footer-->
   </body>
 </html>
