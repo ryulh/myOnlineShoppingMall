@@ -2,7 +2,7 @@
   height: 45px;
   border-top: 1px solid lightgray;
   border-bottom: 2px solid black;
-  font-size: 15px;
+  font-size: var(--normal-font-size);
   font-weight: bold;
 }
 
@@ -35,4 +35,5 @@
 
 .hover_nvi {
   float: right;
+  margin-right: 40px;
 }

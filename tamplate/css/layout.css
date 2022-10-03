@@ -1,30 +1,5 @@
-#main {
-  height: 780px;
-  /* background-color: #886f65; */
-}
 .container {
   width: 1000px;
-  height: inherit;
   margin: 0 auto;
   position: relative;
-}
-.contents .cont1 {
-  height: 100px;
-  /* background-color: #74574a; */
-}
-.contents .cont2 {
-  height: 200px;
-  /* background-color: #684d43; */
-}
-.contents .cont3 {
-  width: 49.5%;
-  height: 480px;
-  /* background-color: #594139; */
-  float: left;
-}
-.contents .cont4 {
-  width: 49.9%;
-  height: 480px;
-  /* background-color: #4a352f; */
-  float: left;
 }

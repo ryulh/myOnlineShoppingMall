@@ -1,6 +1,7 @@
 #footer {
   border-top: 1px solid lightgray;
   background-color: #f7f7f7;
+  margin-top: 50px;
 }
 #footer .container {
   margin-top: 15px;
@@ -8,20 +9,18 @@
 }
 #footer a,
 #footer p {
-  font-size: 12px;
+  font-size: var(--small-font-size);
 }
 .footer_menu {
   display: inline-block;
   text-align: left;
-  margin-left: 2.7%;
+  margin-left: 2.5%;
   width: 30%;
   border-right: 1px solid lightgray;
 }
-
 .footer_menu h3 {
-  font-size: 15px;
+  font-size: var(--normal-font-size);
 }
-
 .footer_menu:last-child {
   border-right: none;
 }

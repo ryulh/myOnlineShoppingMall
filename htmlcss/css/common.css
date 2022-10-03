@@ -34,8 +34,3 @@ a:link {
 .clear {
   clear: both;
 }
-
-strong {
-  font-size: var(--xlarge-font-size);
-  font-weight: bold;
-}

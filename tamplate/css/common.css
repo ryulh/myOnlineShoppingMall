@@ -1,6 +1,18 @@
+:root {
+  --small-font-size: 11px;
+  --normal-font-size: 14px;
+  --large-font-size: 15px;
+  --xlarge-font-size: 20px;
+  --xxlarge-font-size: 24px;
+  --xxxlarge-font-size: 45px;
+  --lighter-gray: #f7f7f7;
+  --blue: #3f79db;
+}
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 a:visited,
@@ -17,4 +29,8 @@ a:link {
 
 .hidden {
   display: none;
+}
+
+.clear {
+  clear: both;
 }

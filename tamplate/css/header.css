@@ -6,7 +6,7 @@
 }
 .lnb li {
   display: inline;
-  font-size: 12px;
+  font-size: var(--small-font-size);
   padding-right: 10px;
   border-right: 1px solid lightgray;
 }
@@ -15,6 +15,7 @@
 }
 .logo {
   position: absolute;
+  z-index: 10;
   top: 30px;
 }
 .logo img {
@@ -39,7 +40,7 @@
   width: 370px;
   border: none;
   outline: none;
-  font-size: large;
+  font-size: var(--large-font-size);
   font-weight: bold;
   position: relative;
   bottom: 10px;
