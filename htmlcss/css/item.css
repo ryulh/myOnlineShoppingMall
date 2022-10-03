@@ -1,0 +1,275 @@
+.curloc {
+  border-bottom: 1px solid lightgray;
+}
+.curloc > .container {
+  font-size: var(--small-font-size);
+}
+.curloc > .container * {
+  display: inline-block;
+}
+.loc li,
+.loc_home {
+  padding: 0px 14px;
+  margin: 14px 0px;
+}
+.loc li {
+  border-left: 1px solid lightgray;
+}
+.item_num {
+  position: absolute;
+  right: 60px;
+  top: 12px;
+}
+/* itemloc */
+.buy_container {
+  margin-top: 30px;
+}
+.item_picture {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.big_picture {
+  width: 100%;
+}
+.small_pictures {
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+.small_pictures * {
+  display: inline;
+}
+.samll_picture img {
+  width: 63px;
+  height: 63px;
+}
+/* item_picutre */
+.item_buyinfo {
+  float: right;
+  width: 45%;
+}
+.item_title > * {
+  display: block;
+}
+.provider img {
+  width: 15px;
+  height: 15px;
+}
+.provider {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 7px;
+}
+.title {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: var(--xxlarge-font-size);
+}
+.origin {
+  margin: 7px 0px;
+  font-size: var(--xlarge-font-size);
+  color: gray;
+}
+.prod_info {
+  font-size: var(--normal-font-size);
+}
+.prod_info > div {
+  display: inline;
+  padding: 0px 7px;
+  border-left: 1px solid lightgray;
+}
+.prod_info > div:first-child {
+  padding-left: 0px;
+  border-left: none;
+}
+.starts {
+  color: red;
+}
+.additional {
+  color: darkgray;
+}
+.price_info {
+  margin: 15px 0px;
+}
+.price_info * {
+  display: inline-block;
+}
+.sale {
+  color: red;
+  font-size: var(--xlarge-font-size);
+}
+.sale strong {
+  font-weight: bold;
+  font-size: var(--xxxlarge-font-size);
+}
+.inner_price {
+  position: relative;
+}
+.price {
+  font-size: var(--xxlarge-font-size);
+  font-weight: bold;
+}
+.price_info del {
+  position: absolute;
+  font-size: var(--normal-font-size);
+  top: -12px;
+  left: 0px;
+}
+.deliver_info {
+  background-color: var(--lighter-gray);
+  width: 100%;
+  height: 50px;
+  font-size: var(--normal-font-size);
+}
+.deliver_info img {
+  position: relative;
+  bottom: -10px;
+  width: 35px;
+  height: 35px;
+  margin: 0px 12px;
+}
+em {
+  font-style: normal;
+  color: var(--blue);
+}
+.ects {
+  margin-top: 15px;
+  width: 100%;
+  list-style-type: none;
+  font-size: var(--normal-font-size);
+}
+.ects li {
+  border-top: 1px solid lightgray;
+  height: 40px;
+}
+.ects li:last-child {
+  border-bottom: 1px solid lightgray;
+}
+.ects li span {
+  position: relative;
+  top: 10px;
+}
+.item_buy {
+  margin-top: 20px;
+}
+.item_options {
+  width: 100%;
+  font-size: var(--xlarge-font-size);
+  height: 50px;
+  padding-left: 10px;
+  border-color: lightgray;
+}
+.item_buy span {
+  display: block;
+  margin: 20px 0px 5px 0px;
+}
+.item_buy input {
+  border: 1px solid lightgray;
+}
+.nums {
+  width: 100px;
+  height: 30px;
+  font-size: var(--xlarge-font-size);
+  padding-left: 20px;
+}
+.confirm {
+  width: 60px;
+  height: 30px;
+  background: none;
+  position: relative;
+  bottom: 2px;
+  font-size: var(--normal-font-size);
+}
+.order_btns {
+  margin: 40px 0px;
+  width: 100%;
+}
+.order_btns input {
+  width: 49%;
+  height: 50px;
+  font-size: var(--xlarge-font-size);
+  font-weight: bold;
+}
+.cart {
+  background: none;
+  border: 1px solid black;
+}
+.buy {
+  color: white;
+  background-color: red;
+  border: none;
+}
+/* buy_container */
+.info_ngb {
+  background-color: black;
+}
+.info_ngb ul {
+  list-style-type: none;
+  font-size: var(--xlarge-font-size);
+  font-weight: bold;
+}
+
+.info_ngb ul * {
+  display: inline-block;
+  color: white;
+}
+
+.info_ngb li a {
+  border-bottom: 4px solid black;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+}
+
+.info_ngb li a:hover {
+  border-color: red;
+}
+
+.info_ngb li a span {
+  position: relative;
+  top: 12px;
+}
+/* info_ngb */
+
+.detail {
+  float: left;
+  width: 70%;
+}
+.detail * {
+  width: 100%;
+}
+.alert {
+  margin: 50px 0px;
+  text-align: center;
+  height: 70px;
+  background-color: #fdf5f5;
+  border: 1px solid red;
+  font-size: var(--normal-font-size);
+}
+.alert em {
+  color: red;
+}
+.alert span {
+  display: block;
+  position: relative;
+  top: 20px;
+}
+.order {
+  float: right;
+  width: 27%;
+  border: 1px solid lightgray;
+  padding: 0px 8px;
+  text-align: center;
+}
+.order .item_buy span {
+  text-align: left;
+  display: block;
+  margin-left: 40px;
+}
+.order .item_buy .order_btns {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+}
+.order .item_buy .order_btns input {
+  width: 70%;
+}

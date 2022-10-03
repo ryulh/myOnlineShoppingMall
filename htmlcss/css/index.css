@@ -72,9 +72,6 @@
 .slider_dot a.stop {
   background-position: -60px -70px;
 }
-.clear {
-  clear: both;
-}
 
 /* slider */
 .item_container {
@@ -102,7 +99,7 @@
 }
 .items li {
   margin-right: 1%;
-  border: 1px solid #e9e7e7;
+  border: 1px solid var(--lighter-gray);
   width: 32%;
   display: inline-block;
   transition: all 0.3s ease;
@@ -135,7 +132,7 @@
   font-style: normal;
 }
 .details {
-  border-top: 1px solid #e9e7e7;
+  border-top: 1px solid var(--lighter-gray);
   position: relative;
   margin-top: 10px;
   padding-top: 8px;
@@ -149,10 +146,10 @@
 .tag_strong,
 .orders > strong {
   font-size: inherit;
-  color: rgba(96, 96, 252, 0.822);
+  color: var(--blue);
 }
 .tag {
-  border-right: 1px solid #e9e7e7;
+  border-right: 1px solid var(--lighter-gray);
   margin-right: 4px;
 }
 .tag:last-child {
@@ -176,7 +173,7 @@
 .list__menu h3 {
   font-size: var(--xlarge-font-size);
   border: 1px solid lightgray;
-  background-color: #e9e7e7;
+  background-color: var(--lighter-gray);
 }
 
 .list__menu li a {

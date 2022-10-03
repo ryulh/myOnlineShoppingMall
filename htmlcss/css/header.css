@@ -15,6 +15,7 @@
 }
 .logo {
   position: absolute;
+  z-index: 10;
   top: 30px;
 }
 .logo img {

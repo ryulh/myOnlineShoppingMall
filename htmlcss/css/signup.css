@@ -1,0 +1,140 @@
+.curloc {
+  border-bottom: 1px solid lightgray;
+}
+.curloc > .container {
+  font-size: var(--small-font-size);
+}
+.curloc > .container * {
+  display: inline-block;
+}
+.loc_home {
+  padding: 0px 14px;
+  margin: 14px 0px;
+}
+/* curloc */
+
+.title {
+  height: 60px;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  background: url("https://pics.auction.co.kr/join/bg_h2_tit.gif");
+  color: white;
+  font-size: 35px;
+}
+
+.title img {
+  height: 65%;
+  margin-left: 20px;
+  margin-right: 7px;
+  position: relative;
+  top: 10px;
+}
+
+.field {
+  padding: 20px 0px 10px 0px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.info_input_field h3 {
+  font-size: 35px;
+  font-weight: normal;
+  position: relative;
+}
+
+.input_field h3 {
+  bottom: 250px;
+}
+
+.condition_field h3 {
+  bottom: 170px;
+}
+
+.field > div {
+  display: inline-block;
+}
+
+.area > * {
+  width: 85%;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.title_aria {
+  bottom: 80px;
+  width: 33%;
+  padding-left: 2%;
+}
+
+.info_aria {
+  width: 64%;
+  font-size: var(--large-font-size);
+}
+
+.input_field .info_aria > * {
+  display: block;
+}
+
+.input_field .info_aria > span {
+  font-size: var(--normal-font-size);
+  color: gray;
+  margin: 5px;
+}
+
+.btns {
+  margin-top: 20px;
+  margin-left: 38%;
+}
+
+.btns button {
+  width: 22%;
+  margin-right: 3%;
+  height: 45px;
+  font-size: var(--xlarge-font-size);
+  font-weight: bold;
+}
+
+#signin {
+  border: none;
+  color: white;
+  background-color: red;
+}
+
+#calcle {
+  border: 1px solid lightgray;
+  background: none;
+}
+
+input,
+select {
+  padding-left: 10px;
+  height: 100%;
+}
+
+.tel_container > * {
+  display: inline-block;
+}
+.tel_container > *:not(span) {
+  width: 29%;
+}
+
+.label_container * {
+  display: inline;
+}
+
+.label_container input {
+  width: 15px;
+  height: 15px;
+}
+
+.all_agree {
+  border-bottom: 1px solid lightgray;
+  font-size: var(--xlarge-font-size);
+  padding-bottom: 10px;
+}
+
+.all_agree input {
+  width: 20px;
+  height: 20px;
+}
