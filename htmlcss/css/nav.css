@@ -1,0 +1,39 @@
+#nav {
+  height: 45px;
+  border-top: 1px solid lightgray;
+  border-bottom: 2px solid black;
+  font-size: var(--normal-font-size);
+  font-weight: bold;
+}
+
+#nav img {
+  height: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.gnb {
+  list-style-type: none;
+  float: left;
+}
+
+.gnb li {
+  display: inline-block;
+  padding: 0px 10px;
+  border-right: 1px solid lightgray;
+}
+
+.gnb li:first-child,
+.gnb li:last-child {
+  border-right: none;
+}
+
+.gnb li:first-child {
+  margin-right: 30px;
+  padding-left: 0px;
+}
+
+.hover_nvi {
+  float: right;
+  margin-right: 40px;
+}
